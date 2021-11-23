@@ -313,7 +313,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="main-wrapper relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="main-wrapper relative flex items-top justify-center min-h-screen dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             <h1 style="color: white; font-weight: 100; font-size: 5vw;">Des <b>Chanceux</b></h1>
             <div class="demo">
                 <form class="payment-card" id="payment-card-form">
