@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>    
+    <title>CHAT DEMO</title>
 <style>
     body {
         display: flex;
@@ -18,6 +18,7 @@
         height: 60vh;
         width: 50vw;
         background: white;
+        overflow: auto;
     }
     .message {
         display: flex;
@@ -121,9 +122,7 @@
 
     // Pusher setup
     Pusher.logToConsole = true;
-    var pusher = new Pusher('cd1289282c2b6964869c', {
-        cluster: 'eu'
-    });
+    var pusher = new Pusher('cd1289282c2b6964869c', {cluster: 'eu'});
 
     // Pusher channel subscription
     var channel = pusher.subscribe('messages');
